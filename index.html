@@ -14,110 +14,109 @@
 
 <script>
 tailwind.config = {
-theme: {
-extend: {
-fontFamily: {
-sans: ['Inter','sans-serif'],
-display: ['Poppins','sans-serif']
-},
-colors: {
-navy: {
-950:'#070b14',
-900:'#0d1424',
-800:'#141f38'
-},
-gold: {
-300:'#ffe57f',
-400:'#ffd026',
-500:'#f5b800'
-}
-}
-}
-}
+ theme: {
+  extend: {
+   fontFamily: {
+    sans: ['Inter','sans-serif'],
+    display: ['Poppins','sans-serif']
+   },
+   colors: {
+    navy: {
+     950:'#070b14',
+     900:'#0d1424',
+     800:'#141f38'
+    },
+    gold: {
+     300:'#ffe57f',
+     400:'#ffd026',
+     500:'#f5b800'
+    }
+   }
+  }
+ }
 }
 </script>
 
-<!-- META PIXEL -->
+<!-- NEW META PIXEL -->
 <script>
 !function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){
-n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];
 t=b.createElement(e);t.async=!0;
-t.src=v;
-s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)
-}(window,document,'script',
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 
-fbq('init','1244942400950969');
-fbq('track','PageView');
+fbq('init', '2779699882447509');
+fbq('track', 'PageView');
 </script>
 
 <noscript>
 <img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1244942400950969&ev=PageView&noscript=1"/>
+src="https://www.facebook.com/tr?id=2779699882447509&ev=PageView&noscript=1"/>
 </noscript>
+<!-- END META PIXEL -->
 
 <style>
 body {
-background:radial-gradient(circle at 50% 0%,#162447 0%,#0b1120 55%,#060911 100%);
-min-height:100vh;
-color:white;
--webkit-tap-highlight-color:transparent;
+ background:radial-gradient(circle at 50% 0%,#162447 0%,#0b1120 55%,#060911 100%);
+ min-height:100vh;
+ color:white;
+ -webkit-tap-highlight-color:transparent;
 }
 
 .glass-panel {
-background:rgba(17,25,45,.85);
-backdrop-filter:blur(12px);
-border:1px solid rgba(255,255,255,.14);
+ background:rgba(17,25,45,.85);
+ backdrop-filter:blur(12px);
+ border:1px solid rgba(255,255,255,.14);
 }
 
 .glass-feature {
-background:linear-gradient(145deg,rgba(24,36,64,.92),rgba(15,23,42,.95));
-border:1px solid rgba(255,255,255,.13);
-transition:transform .2s,border-color .2s;
+ background:linear-gradient(145deg,rgba(24,36,64,.92),rgba(15,23,42,.95));
+ border:1px solid rgba(255,255,255,.13);
+ transition:transform .2s,border-color .2s;
 }
 
 .glass-feature:hover {
-transform:translateY(-2px);
-border-color:rgba(255,208,38,.5);
+ transform:translateY(-2px);
+ border-color:rgba(255,208,38,.5);
 }
 
 .cta-btn {
-background:linear-gradient(180deg,#ffe047,#f5b400);
-color:#090d16;
-transition:.2s;
+ background:linear-gradient(180deg,#ffe047,#f5b400);
+ color:#090d16;
+ transition:.2s;
 }
 
 .cta-btn:hover {
-filter:brightness(1.07);
-transform:translateY(-2px);
-box-shadow:0 14px 32px -4px rgba(255,208,38,.6);
+ filter:brightness(1.07);
+ transform:translateY(-2px);
+ box-shadow:0 14px 32px -4px rgba(255,208,38,.6);
 }
 
 .cta-btn:active {
-transform:scale(.98);
+ transform:scale(.98);
 }
 
 @keyframes floatSlow {
-0%,100% {transform:translateY(0);}
-50% {transform:translateY(-4px);}
+ 0%,100% {transform:translateY(0);}
+ 50% {transform:translateY(-4px);}
 }
 
 .app-emblem {
-animation:floatSlow 4s ease-in-out infinite;
+ animation:floatSlow 4s ease-in-out infinite;
 }
 
 @keyframes pulseGlow {
-0%,100% {box-shadow:0 0 15px rgba(255,208,38,.25);}
-50% {box-shadow:0 0 30px rgba(255,208,38,.55);}
+ 0%,100% {box-shadow:0 0 15px rgba(255,208,38,.25);}
+ 50% {box-shadow:0 0 30px rgba(255,208,38,.55);}
 }
 
 .download-glow {
-animation:pulseGlow 2s infinite;
+ animation:pulseGlow 2s infinite;
 }
 </style>
 </head>
@@ -130,172 +129,165 @@ animation:pulseGlow 2s infinite;
 
 <!-- HEADER -->
 <header class="glass-panel mb-6 flex items-center justify-between rounded-2xl px-4 py-3">
-<div class="flex items-center gap-2">
-<span class="h-2.5 w-2.5 rounded-full bg-gold-400"></span>
-<span class="text-xs font-bold tracking-wide text-gold-400">Android Entertainment</span>
-</div>
-<span class="text-xs font-semibold">18+ Casual Use</span>
+ <div class="flex items-center gap-2">
+  <span class="h-2.5 w-2.5 rounded-full bg-gold-400"></span>
+  <span class="text-xs font-bold tracking-wide text-gold-400">Android Entertainment</span>
+ </div>
+ <span class="text-xs font-semibold">18+ Casual Use</span>
 </header>
 
 <!-- HERO -->
 <section class="flex flex-col items-center text-center">
 
-<div class="app-emblem mb-4 flex h-28 w-28 items-center justify-center rounded-[28px] bg-gradient-to-br from-[#1e315c] via-[#111c36] to-[#080d1a] p-1 ring-2 ring-gold-400/60">
+ <div class="app-emblem mb-4 flex h-28 w-28 items-center justify-center rounded-[28px] bg-gradient-to-br from-[#1e315c] via-[#111c36] to-[#080d1a] p-1 ring-2 ring-gold-400/60">
+  <div class="flex h-full w-full flex-col items-center justify-center rounded-[24px] bg-navy-900 px-2">
+   <svg class="mb-1 h-7 w-7 text-gold-400" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/>
+   </svg>
+   <span class="font-display text-xl font-black text-gold-400">GAMA</span>
+   <span class="mt-1 rounded-full bg-gold-400/20 px-3 py-1 text-[10px] font-bold tracking-widest">APP</span>
+  </div>
+ </div>
 
-<div class="flex h-full w-full flex-col items-center justify-center rounded-[24px] bg-navy-900 px-2">
+ <h1 class="font-display text-3xl font-extrabold text-white sm:text-4xl">
+ GAMA <span class="text-gold-400">APP</span>
+ </h1>
 
-<svg class="mb-1 h-7 w-7 text-gold-400" viewBox="0 0 24 24" fill="currentColor">
-<path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/>
-</svg>
+ <p class="mt-2 text-xs font-bold tracking-wider text-gold-300 uppercase">
+ ★ CASUAL ENTERTAINMENT &amp; GAMING ★
+ </p>
 
-<span class="font-display text-xl font-black text-gold-400">GAMA</span>
-<span class="mt-1 rounded-full bg-gold-400/20 px-3 py-1 text-[10px] font-bold tracking-widest">APP</span>
+ <p class="mt-3 max-w-sm text-sm leading-relaxed text-slate-200">
+ Explore the app, review its features, and find installation and support information.
+ </p>
 
-</div>
-</div>
+ <!-- FIRST BUTTON -->
+ <div class="mt-6 w-full">
+  <button type="button"
+  onclick="openDownloadModal()"
+  class="cta-btn download-glow flex w-full items-center justify-center gap-3 rounded-2xl px-6 py-4 font-display text-base font-extrabold tracking-wide">
 
-<h1 class="font-display text-3xl font-extrabold text-white sm:text-4xl">
-GAMA <span class="text-gold-400">APP</span>
-</h1>
+   <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+    <polyline points="7 10 12 15 17 10"/>
+    <line x1="12" y1="15" x2="12" y2="3"/>
+   </svg>
 
-<p class="mt-2 text-xs font-bold tracking-wider text-gold-300 uppercase">
-★ CASUAL ENTERTAINMENT &amp; GAMING ★
-</p>
+   <span>DOWNLOAD NOW</span>
+  </button>
 
-<p class="mt-3 max-w-sm text-sm leading-relaxed text-slate-200">
-Explore the app, review its features, and find installation and support information.
-</p>
-
-<!-- FIRST BUTTON -->
-<div class="mt-6 w-full">
-<button type="button"
-onclick="openDownloadModal()"
-class="cta-btn download-glow flex w-full items-center justify-center gap-3 rounded-2xl px-6 py-4 font-display text-base font-extrabold tracking-wide">
-
-<svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-<polyline points="7 10 12 15 17 10"/>
-<line x1="12" y1="15" x2="12" y2="3"/>
-</svg>
-
-<span>DOWNLOAD NOW</span>
-</button>
-
-<p class="mt-3 text-xs text-slate-300">
-Android App • Installation Information
-</p>
-</div>
+  <p class="mt-3 text-xs text-slate-300">
+  Android App • Installation Information
+  </p>
+ </div>
 </section>
 
 <!-- OVERVIEW -->
 <section class="mt-6 grid grid-cols-2 gap-3">
+ <div class="glass-panel rounded-2xl p-4 text-center">
+  <p class="text-xs text-slate-300">Experience</p>
+  <p class="mt-1 font-display font-extrabold text-gold-400">Casual Play</p>
+ </div>
 
-<div class="glass-panel rounded-2xl p-4 text-center">
-<p class="text-xs text-slate-300">Experience</p>
-<p class="mt-1 font-display font-extrabold text-gold-400">Casual Play</p>
-</div>
-
-<div class="glass-panel rounded-2xl p-4 text-center">
-<p class="text-xs text-slate-300">Platform</p>
-<p class="mt-1 font-display font-extrabold text-gold-400">Android</p>
-</div>
-
+ <div class="glass-panel rounded-2xl p-4 text-center">
+  <p class="text-xs text-slate-300">Platform</p>
+  <p class="mt-1 font-display font-extrabold text-gold-400">Android</p>
+ </div>
 </section>
 
 <!-- FEATURES -->
 <section class="mt-5 space-y-3">
 
-<div class="glass-feature flex items-start gap-3 rounded-2xl p-4">
-<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-950 text-gold-400">
-<svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-<path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/>
-</svg>
-</div>
-<div>
-<h2 class="text-sm font-bold">Lightweight Performance</h2>
-<p class="mt-1 text-xs leading-relaxed text-slate-200">
-Designed with a clean interface and mobile-friendly layout.
-</p>
-</div>
-</div>
+ <div class="glass-feature flex items-start gap-3 rounded-2xl p-4">
+  <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-950 text-gold-400">
+   <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/>
+   </svg>
+  </div>
+  <div>
+   <h2 class="text-sm font-bold">Lightweight Performance</h2>
+   <p class="mt-1 text-xs leading-relaxed text-slate-200">
+   Designed with a clean interface and mobile-friendly layout.
+   </p>
+  </div>
+ </div>
 
-<div class="glass-feature flex items-start gap-3 rounded-2xl p-4">
-<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-950 text-gold-400">
-<svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-<path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 15h-2v-2h2zm0-4h-2V7h2z"/>
-</svg>
-</div>
-<div>
-<h2 class="text-sm font-bold">Simple Interface</h2>
-<p class="mt-1 text-xs leading-relaxed text-slate-200">
-Explore the available features and navigation options.
-</p>
-</div>
-</div>
+ <div class="glass-feature flex items-start gap-3 rounded-2xl p-4">
+  <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-950 text-gold-400">
+   <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 15h-2v-2h2zm0-4h-2V7h2z"/>
+   </svg>
+  </div>
+  <div>
+   <h2 class="text-sm font-bold">Simple Interface</h2>
+   <p class="mt-1 text-xs leading-relaxed text-slate-200">
+   Explore the available features and navigation options.
+   </p>
+  </div>
+ </div>
 
-<div class="glass-feature flex items-start gap-3 rounded-2xl p-4">
-<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-950 text-sky-400">
-<svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-<path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
-</svg>
-</div>
-<div>
-<h2 class="text-sm font-bold">Privacy &amp; Security</h2>
-<p class="mt-1 text-xs leading-relaxed text-slate-200">
-Review privacy and security information before installation.
-</p>
-</div>
-</div>
+ <div class="glass-feature flex items-start gap-3 rounded-2xl p-4">
+  <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-950 text-sky-400">
+   <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
+   </svg>
+  </div>
+  <div>
+   <h2 class="text-sm font-bold">Privacy &amp; Security</h2>
+   <p class="mt-1 text-xs leading-relaxed text-slate-200">
+   Review privacy and security information before installation.
+   </p>
+  </div>
+ </div>
 
-<div class="glass-feature flex items-start gap-3 rounded-2xl p-4">
-<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-950 text-emerald-400">
-<svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-<path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4z"/>
-</svg>
-</div>
-<div>
-<h2 class="text-sm font-bold">Help &amp; Support</h2>
-<p class="mt-1 text-xs leading-relaxed text-slate-200">
-Check the support information for installation questions.
-</p>
-</div>
-</div>
+ <div class="glass-feature flex items-start gap-3 rounded-2xl p-4">
+  <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-950 text-emerald-400">
+   <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4z"/>
+   </svg>
+  </div>
+  <div>
+   <h2 class="text-sm font-bold">Help &amp; Support</h2>
+   <p class="mt-1 text-xs leading-relaxed text-slate-200">
+   Check the support information for installation questions.
+   </p>
+  </div>
+ </div>
 
 </section>
 
 <!-- SECOND BUTTON -->
 <section class="mt-6 text-center">
-<div class="mb-4 text-xs font-bold tracking-wide text-gold-400">
-HTTPS CONNECTION • REVIEW BEFORE INSTALLING
-</div>
+ <div class="mb-4 text-xs font-bold tracking-wide text-gold-400">
+ HTTPS CONNECTION • REVIEW BEFORE INSTALLING
+ </div>
 
-<button type="button"
-onclick="openDownloadModal()"
-class="cta-btn download-glow flex w-full items-center justify-center gap-3 rounded-2xl px-6 py-4 font-display text-base font-extrabold">
-
-DOWNLOAD APP
-</button>
+ <button type="button"
+ onclick="openDownloadModal()"
+ class="cta-btn download-glow flex w-full items-center justify-center gap-3 rounded-2xl px-6 py-4 font-display text-base font-extrabold">
+ DOWNLOAD APP
+ </button>
 </section>
 
 <!-- FOOTER -->
 <footer class="mt-8 space-y-4">
 
-<div class="glass-panel rounded-2xl p-4">
-<div class="mb-2 flex items-center gap-2">
-<span class="rounded-md bg-gold-400/20 px-2 py-1 text-xs font-bold text-gold-400">18+</span>
-<strong class="text-xs">Eligibility Notice</strong>
-</div>
+ <div class="glass-panel rounded-2xl p-4">
+  <div class="mb-2 flex items-center gap-2">
+   <span class="rounded-md bg-gold-400/20 px-2 py-1 text-xs font-bold text-gold-400">18+</span>
+   <strong class="text-xs">Eligibility Notice</strong>
+  </div>
 
-<p class="text-xs leading-relaxed text-slate-200">
-Please review the app's terms, privacy policy, eligibility rules, and applicable laws before use.
-</p>
-</div>
+  <p class="text-xs leading-relaxed text-slate-200">
+  Please review the app's terms, privacy policy, eligibility rules, and applicable laws before use.
+  </p>
+ </div>
 
-<div class="glass-panel rounded-xl px-4 py-3 text-center">
-<p class="text-xs font-bold tracking-wider text-gold-400">
-© 2026 GAMA APP
-</p>
-</div>
+ <div class="glass-panel rounded-xl px-4 py-3 text-center">
+  <p class="text-xs font-bold tracking-wider text-gold-400">
+  © 2026 GAMA APP
+  </p>
+ </div>
 
 </footer>
 </main>
@@ -304,76 +296,75 @@ Please review the app's terms, privacy policy, eligibility rules, and applicable
 <div id="downloadModal"
 class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 p-4 backdrop-blur-md">
 
-<div class="w-full max-w-sm rounded-3xl border border-gold-400/40 bg-navy-900 p-6 text-center shadow-2xl">
+ <div class="w-full max-w-sm rounded-3xl border border-gold-400/40 bg-navy-900 p-6 text-center shadow-2xl">
 
-<div class="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-gold-400/15 text-gold-400">
-<svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-<polyline points="7 10 12 15 17 10"/>
-<line x1="12" y1="15" x2="12" y2="3"/>
-</svg>
-</div>
+  <div class="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-gold-400/15 text-gold-400">
+   <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+    <polyline points="7 10 12 15 17 10"/>
+    <line x1="12" y1="15" x2="12" y2="3"/>
+   </svg>
+  </div>
 
-<h3 class="font-display text-lg font-bold text-white">
-Download App
-</h3>
+  <h3 class="font-display text-lg font-bold text-white">
+  Download App
+  </h3>
 
-<p class="mt-2 text-xs leading-relaxed text-slate-200">
-The APK download will start. Review the app information and permissions before installing.
-</p>
+  <p class="mt-2 text-xs leading-relaxed text-slate-200">
+  The APK download will start. Review the app information and permissions before installing.
+  </p>
 
-<div class="mt-5 flex flex-col gap-3">
+  <div class="mt-5 flex flex-col gap-3">
 
-<!-- APK LINK -->
-<a
-id="directApkLink"
-href="/gama567-v2.apk"
-download="gama567-v2.apk"
-onclick="trackDownload()"
-class="cta-btn block w-full rounded-full py-3 font-display text-sm font-extrabold uppercase tracking-wider">
+   <!-- APK LINK -->
+   <a
+   id="directApkLink"
+   href="/gama567-v2.apk"
+   download="gama567-v2.apk"
+   onclick="trackDownload()"
+   class="cta-btn block w-full rounded-full py-3 font-display text-sm font-extrabold uppercase tracking-wider">
+   CONTINUE TO DOWNLOAD
+   </a>
 
-CONTINUE TO DOWNLOAD
-</a>
+   <button type="button"
+   onclick="closeDownloadModal()"
+   class="w-full rounded-full border border-white/20 py-2.5 text-xs font-semibold text-slate-200">
+   CLOSE
+   </button>
 
-<button type="button"
-onclick="closeDownloadModal()"
-class="w-full rounded-full border border-white/20 py-2.5 text-xs font-semibold text-slate-200">
-CLOSE
-</button>
-
-</div>
-</div>
+  </div>
+ </div>
 </div>
 
 <script>
 function openDownloadModal() {
-const modal = document.getElementById('downloadModal');
-modal.classList.remove('hidden');
-modal.classList.add('flex');
+ const modal = document.getElementById('downloadModal');
+ modal.classList.remove('hidden');
+ modal.classList.add('flex');
 }
 
 function closeDownloadModal() {
-const modal = document.getElementById('downloadModal');
-modal.classList.add('hidden');
-modal.classList.remove('flex');
+ const modal = document.getElementById('downloadModal');
+ modal.classList.add('hidden');
+ modal.classList.remove('flex');
 }
 
 function trackDownload() {
-if (typeof fbq === 'function') {
-fbq('trackCustom','DownloadClick');
-}
+ if (typeof fbq === 'function') {
+  fbq('trackCustom','DownloadClick');
+ }
 }
 
 window.addEventListener('click',function(e) {
-if(e.target.id === 'downloadModal') {
-closeDownloadModal();
-}
+ if(e.target.id === 'downloadModal') {
+  closeDownloadModal();
+ }
 });
 
 window.addEventListener('keydown',function(e) {
-if(e.key === 'Escape') {
-closeDownloadModal();
-}
+ if(e.key === 'Escape') {
+  closeDownloadModal();
+ }
 });
 </script>
 
